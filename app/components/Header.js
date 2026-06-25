@@ -73,7 +73,7 @@ export default function Header() {
             <Coffee size={22} />
           </span>
           <span className="leading-tight">
-            ERIC.CO
+            MAUL.CE
             <span className={`block text-xs font-semibold ${landing ? "text-[#c8b7a6]" : "text-[#786a5d]"}`}>premium cafe app</span>
           </span>
         </Link>
