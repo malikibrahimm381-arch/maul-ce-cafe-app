@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Caramel latte">
+  <rect width="480" height="320" rx="34" fill="#f4dfc8"/>
+  <circle cx="96" cy="82" r="54" fill="#f7b267" opacity=".55"/>
+  <circle cx="382" cy="250" r="76" fill="#8ab6a9" opacity=".35"/>
+  <path d="M148 96h174l-18 154c-3 25-24 44-50 44h-38c-26 0-47-19-50-44z" fill="#fff7ed"/>
+  <path d="M166 126h138l-10 74H176z" fill="#c9824a"/>
+  <path d="M178 200h114l-7 48c-2 13-13 23-26 23h-48c-13 0-24-10-26-23z" fill="#f8d7a6"/>
+  <path d="M321 139h22c23 0 41 18 41 41s-18 41-41 41h-33l5-31h28c6 0 10-4 10-10s-4-10-10-10h-25z" fill="#fff7ed"/>
+  <path d="M202 88c-18-24 23-33 5-57M246 88c-18-24 23-33 5-57M288 88c-18-24 23-33 5-57" fill="none" stroke="#8f5a38" stroke-width="10" stroke-linecap="round"/>
+</svg>
