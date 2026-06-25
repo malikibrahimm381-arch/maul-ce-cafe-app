@@ -3,7 +3,7 @@ import "flatpickr/dist/themes/material_green.css";
 import "./globals.css";
 
 export const metadata = {
-  title: "ERIC.CO",
+  title: "MAUL.CE",
   description: "Web aplikasi cafe modern dengan pemesanan, kasir, admin, dan dashboard."
 };
 
