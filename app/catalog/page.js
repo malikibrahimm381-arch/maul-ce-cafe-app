@@ -38,7 +38,7 @@ export default function CatalogPage() {
                   <Coffee size={24} />
                 </div>
                 <div>
-                  <h1 className="text-3xl font-black text-[#1a0f0a]">ERIC.CO</h1>
+                  <h1 className="text-3xl font-black text-[#1a0f0a]">MAUL.CE</h1>
                   <p className="mt-1 text-sm font-semibold text-[#69736e]">Katalog Menu</p>
                 </div>
               </div>
