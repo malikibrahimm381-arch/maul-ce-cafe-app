@@ -1,0 +1,26 @@
+{
+  "name": "cafe-soft-pos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "latest",
+    "animate.css": "latest",
+    "bcrypt": "latest",
+    "flatpickr": "latest",
+    "lucide-react": "latest",
+    "mariadb": "latest",
+    "next": "16.2.9",
+    "qrcode.react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-flatpickr": "latest",
+    "recharts": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {}
+}
