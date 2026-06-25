@@ -47,41 +47,41 @@ function DeveloperWorkspace({ user }) {
   return (
     <main className="app-shell py-7">
       <section className="mb-5">
-        <h1 className="text-3xl font-black text-[#253431]">Developer Console</h1>
-        <p className="mt-1 text-sm font-semibold text-[#69736e]">REST API, session, env, dan status database.</p>
+        <h1 className="text-3xl font-black text-[#0e1713]">Developer Console</h1>
+        <p className="mt-1 text-sm font-semibold text-[#607066]">REST API, session, env, dan status database.</p>
       </section>
 
       <section className="grid gap-4 md:grid-cols-3">
         <article className="soft-panel rounded-lg p-5">
-          <div className="mb-4 grid size-12 place-items-center rounded-lg bg-[#e4f0ec] text-[#2f6f66]">
+          <div className="mb-4 grid size-12 place-items-center rounded-lg bg-[#e3f4ea] text-[#0b3b28]">
             <ShieldCheck size={22} />
           </div>
-          <p className="text-sm font-bold text-[#69736e]">Session</p>
-          <h2 className="mt-1 text-xl font-black text-[#253431]">{user.name}</h2>
-          <p className="mt-1 text-sm font-semibold text-[#69736e]">{roleLabel(user.role)}</p>
+          <p className="text-sm font-bold text-[#607066]">Session</p>
+          <h2 className="mt-1 text-xl font-black text-[#0e1713]">{user.name}</h2>
+          <p className="mt-1 text-sm font-semibold text-[#607066]">{roleLabel(user.role)}</p>
         </article>
 
         <article className="soft-panel rounded-lg p-5">
-          <div className="mb-4 grid size-12 place-items-center rounded-lg bg-[#f6ead7] text-[#6b4a1f]">
+          <div className="mb-4 grid size-12 place-items-center rounded-lg bg-[#fff1d8] text-[#8b5b00]">
             <Database size={22} />
           </div>
-          <p className="text-sm font-bold text-[#69736e]">MariaDB</p>
-          <h2 className="mt-1 text-xl font-black text-[#253431]">{status?.connected ? "Terhubung" : "Demo"}</h2>
-          <p className="mt-1 text-sm font-semibold leading-5 text-[#69736e]">{status?.message || "Memuat status."}</p>
+          <p className="text-sm font-bold text-[#607066]">MariaDB</p>
+          <h2 className="mt-1 text-xl font-black text-[#0e1713]">{status?.connected ? "Terhubung" : "Demo"}</h2>
+          <p className="mt-1 text-sm font-semibold leading-5 text-[#607066]">{status?.message || "Memuat status."}</p>
         </article>
 
         <article className="soft-panel rounded-lg p-5">
           <div className="mb-4 grid size-12 place-items-center rounded-lg bg-[#e4edf5] text-[#285d82]">
             <KeyRound size={22} />
           </div>
-          <p className="text-sm font-bold text-[#69736e]">Env</p>
-          <h2 className="mt-1 text-xl font-black text-[#253431]">.env</h2>
-          <p className="mt-1 text-sm font-semibold leading-5 text-[#69736e]">APP_SECRET dan akses database disimpan di file environment.</p>
+          <p className="text-sm font-bold text-[#607066]">Env</p>
+          <h2 className="mt-1 text-xl font-black text-[#0e1713]">.env</h2>
+          <p className="mt-1 text-sm font-semibold leading-5 text-[#607066]">APP_SECRET dan akses database disimpan di file environment.</p>
         </article>
       </section>
 
       <section className="soft-panel mt-6 rounded-lg p-5">
-        <h2 className="mb-4 flex items-center gap-2 text-xl font-black text-[#253431]">
+        <h2 className="mb-4 flex items-center gap-2 text-xl font-black text-[#0e1713]">
           <Route size={22} />
           REST API
         </h2>
@@ -89,10 +89,10 @@ function DeveloperWorkspace({ user }) {
           {endpoints.map(([method, path, label]) => (
             <article key={`${method}-${path}`} className="rounded-lg bg-white/78 p-3">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="rounded-md bg-[#253431] px-2 py-1 text-xs font-black text-white">{method}</span>
-                <code className="text-sm font-bold text-[#2f6f66]">{path}</code>
+                <span className="rounded-md bg-[#0b3b28] px-2 py-1 text-xs font-black text-white">{method}</span>
+                <code className="text-sm font-bold text-[#0b3b28]">{path}</code>
               </div>
-              <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-[#69736e]">
+              <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-[#607066]">
                 <Code2 size={15} />
                 {label}
               </p>
