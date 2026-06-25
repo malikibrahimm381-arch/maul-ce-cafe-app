@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Butter croissant">
+  <rect width="480" height="320" rx="34" fill="#f7ead9"/>
+  <circle cx="393" cy="82" r="62" fill="#91b6b1" opacity=".42"/>
+  <ellipse cx="240" cy="212" rx="157" ry="51" fill="#d68b49"/>
+  <path d="M108 198c35-82 104-123 146-112 35 9 20 66-11 109-27 37-88 73-135 3z" fill="#efb46f"/>
+  <path d="M372 198c-35-82-104-123-146-112-35 9-20 66 11 109 27 37 88 73 135 3z" fill="#efb46f"/>
+  <path d="M165 217c22-62 61-104 75-104s54 42 75 104c-35 25-115 25-150 0z" fill="#f3c07d"/>
+  <path d="M166 183c42 21 105 21 148 0M191 135c31 21 69 21 98 0" stroke="#bd713c" stroke-width="9" stroke-linecap="round" opacity=".65"/>
+  <ellipse cx="240" cy="238" rx="119" ry="20" fill="#b96d3d" opacity=".25"/>
+</svg>
