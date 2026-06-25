@@ -1,16 +1,19 @@
 # MAUL.CE Cafe App
 
-Web aplikasi cafe bergaya MAUL.CE memakai Next.js App Router, Tailwind CSS, Animate.css, JavaScript, REST API, bcrypt, dan MariaDB.
+Web aplikasi cafe bergaya MAUL.CE dengan tampilan dashboard modern, sidebar hijau gelap, kartu statistik, POS kasir, dapur, reservasi, QR meja, laporan, dan katalog menu. Dibuat memakai Next.js App Router, Tailwind CSS, Animate.css, JavaScript, REST API, bcrypt, dan MariaDB.
 
 ## Fitur
 
-- Landing page MAUL.CE seperti contoh referensi.
+- Landing page MAUL.CE dengan hero cafe, menu favorit, galeri, dan CTA pemesanan.
 - Customer tanpa login di `/customer` untuk pesan Dine In atau Take Away.
+- Reservasi online di `/reservasi`.
 - QR meja dan katalog menu yang bisa dicetak.
 - Kasir login untuk transaksi tunai dan non tunai, termasuk hitung kembalian otomatis.
+- Kitchen display di `/dapur` untuk proses pesanan aktif.
 - Admin login untuk input, edit, dan hapus menu beserta thumbnail.
 - Developer login untuk melihat status sistem dan daftar endpoint REST.
 - Dashboard dengan grafik order harian, grafik pendapatan, dan filter tanggal Flatpickr.
+- Modul tambahan: pesanan, meja, stok, pelanggan, pegawai, promosi, loyalty, keuangan, pengaturan, backup, dan laporan.
 - MariaDB lewat file import `database/cafe_app.sql`.
 - Data sensitif lewat `.env`.
 
