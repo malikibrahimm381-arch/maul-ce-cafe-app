@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-label="Berry iced tea">
+  <rect width="480" height="320" rx="34" fill="#f5d7dc"/>
+  <path d="M67 78c77 13 119-42 190-19 77 25 83 110 157 125v136H67z" fill="#b7d8d6" opacity=".5"/>
+  <path d="M168 76h154l-19 189c-2 18-17 31-35 31h-46c-18 0-33-13-35-31z" fill="#fffaf4"/>
+  <path d="M185 148h120l-11 106c-1 11-11 20-22 20h-54c-11 0-21-9-22-20z" fill="#d65f79"/>
+  <path d="M192 119h106" stroke="#9a3f5a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="220" cy="182" r="13" fill="#7d2f48"/>
+  <circle cx="270" cy="215" r="14" fill="#7d2f48"/>
+  <circle cx="247" cy="246" r="10" fill="#7d2f48"/>
+  <path d="M297 62l46-37" stroke="#455b4d" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="346" cy="53" r="26" fill="#f6df6f"/>
+  <circle cx="346" cy="53" r="14" fill="#fff6b5"/>
+</svg>
